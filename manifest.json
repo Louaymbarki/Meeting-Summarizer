@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Meeting Recorder",
+  "version": "1.0",
+  "description": "Record, transcribe, and summarize meeting audio.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "scripting",
+    "webNavigation",
+    "desktopCapture"
+  ],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
