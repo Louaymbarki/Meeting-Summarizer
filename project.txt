@@ -23,3 +23,18 @@ Work Plan:
 
 3. Develop the UI Webpage:
    a. Design the layout and user interface
+   b. Implement a function to communicate with the Backend API for managing summaries.
+   c. Implement components for displaying and managing summaries.
+   d. Implement a login system for secure access.
+
+4. Integrate the Chrome extension, Backend API, and UI Webpage:
+   a. Connect the Chrome extension to the Backend API for processing transcriptions and handling summaries.
+   b. Connect the UI Webpage to the Backend API for managing summaries and extension settings.
+   c. Ensure seamless communication between all components.
+
+Technical Details:
+- Chrome Extension: JavaScript, Web Audio API, Whisper API (for speech-to-text)
+- Backend API: Node.js/Express, ChatGPT API, MongoDB/PostgreSQL (for database)
+- UI Webpage: React or Angular for frontend, UI design tools (e.g., Figma, Adobe XD)
+
+Remember to update the project.txt file with any changes, progress, or new technical details as the project evolves.
