@@ -1,0 +1,14 @@
+Here is the list of the latest Errors (Always Mark the handeled errors as done - never handle done errors again) : 
+Error 1 : 
+Uncaught TypeError: Cannot set properties of undefined (setting 'ondataavailable')
+Context
+popup.html
+Stack Trace
+popup.js:35 (anonymous function)
+
+Error 2 : 
+Uncaught (in promise) NotFoundError: Requested device not found
+Context
+popup.html
+Stack Trace
+popup.html:0 (anonymous function)
