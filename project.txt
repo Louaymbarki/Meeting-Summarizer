@@ -1,0 +1,25 @@
+This file contains a description of the project : 
+Project: Audio Transcription and Summarization Chrome Extension
+
+Architecture:
+1. Chrome Extension - Handles audio recording and transcription.
+2. Backend API - Processes transcriptions with ChatGPT instances, organizes and stores summaries in a database.
+3. UI Webpage - Manages the extension's output and provides an interface for users.
+
+Work Plan:
+
+1. Develop the Chrome extension:
+   a. Create a manifest file and basic structure.
+   b. Implement an audio recording function using Web Audio API.
+   c. Implement a transcription function using a speech-to-text service (Whisper API).
+
+2. Develop the Backend API:
+   a. Set up the server using the chosen technology stack.
+   b. Create endpoints for receiving transcriptions, processing them with ChatGPT instances, and storing the summaries in the database.
+   c. Implement a function to process transcriptions with ChatGPT instances and summarize the text.
+   d. Implement a function to organize and store the summaries in a database (e.g. MongoDB, PostgreSQL).
+   e. Implement authentication and authorization for secure API access.
+   f. Create additional endpoints for managing summaries (e.g., retrieving, updating, deleting).
+
+3. Develop the UI Webpage:
+   a. Design the layout and user interface
